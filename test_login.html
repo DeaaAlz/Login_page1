@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: #eaeaea">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap" rel="stylesheet"> 
+    <!-- font awsome for icon -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- my css file -->
+    <link rel="stylesheet" href="./css/mystyle.css">
+</head>
+<body style="background-image: url(./img/ee.jpg);">
+    <form method="POST">
+        
+            <center>
+                <div class="container">
+                    <div class="row">
+                        <span class="logo">Login</span>
+                    </div>
+                    <div class="row r">
+                        
+                            <!-- <a href="https://www.facebook.com"> -->
+                            <a class="row_btn row_btn1" href="https://www.facebook.com" target="_blank"> 
+                                <i class="fab fa-facebook"></i>
+                                Login With Facebook
+                            </a>
+                            <!-- </a> -->
+                        <a class="row_btn row_btn2" href="https://twitter.com" target="_blank">
+                        <i class="fab fa-twitter"></i>Login&ThickSpace; With&ThickSpace; Twitter</a>
+                    </div>
+                    <div class="row">
+                        <span class="title">
+                            Login With Email
+                        </span>
+                    </div>
+                    <div class="row">
+                        <input type="email" placeholder="email" pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?" required
+                        oninvalid="this.setCustomValidity('Enter true email please')" oninput="this.setCustomValidity('')" >
+                        <input type="password" placeholder="password" required oninvalid="this.setCustomValidity('Enter password please')" oninput="this.setCustomValidity('')" >
+                    </div>
+                    <div class="row">
+                        <button class="login_btn">Login</button>
+                    </div>
+                    <div class="row_span">
+                        <span class="dont">Don't Have an Account?</span>
+                        <span class="up">Sing Up Now</span>
+                    </div>
+            </div>
+            </center>
+                
+    </form>   
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
